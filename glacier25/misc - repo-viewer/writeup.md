@@ -1,4 +1,4 @@
-# GlacierCTF 2025 – misc/repo viewer
+# GlacierCTF 2025 – misc/repo-viewer
 
 *Published: 2025-11-22*
 
@@ -30,7 +30,6 @@ less README.md
 
 At first glance, this looks pretty locked down. They explicitly check that `README.md` isn’t a symlink, and they copy in a custom `.lesskey` that disables all the usual ways you’d escape `less` into a shell. I spent a bit of time poking at the obvious ideas anyway including symlinks, different filenames, etc.
 
----
 
 ## Vulnerability
 
@@ -72,7 +71,7 @@ EOF
 chmod +x .lessfilter
 ```
 
-Committed everything and bundled it up:
+commit everything:
 
 ```bash
 git add README.md .lessfilter
@@ -97,8 +96,5 @@ Instead of showing the README, the pager displays whatever my script printed, wh
 gctf{B3w4r3_0f_0bscur3_5hell_F34tur3s}
 ```
 
----
-
-## Closing Thoughts
 
 Thanks to the Glacier CTF team for putting together some fun challenges!

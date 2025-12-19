@@ -37,7 +37,6 @@ Once the factorization is done, the rest is standard RSA. Compute φ(N) as the p
 
 Even though the modulus here is still 2048 bits, the structure makes it trivial to break.
 
----
 
 ## solve script
 

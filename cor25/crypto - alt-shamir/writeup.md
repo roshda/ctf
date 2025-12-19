@@ -32,7 +32,6 @@ I ended up implementing this directly with a set of Lagrange basis weights for e
 S = Σ w\_j \* y\_j
 ````
 
----
 
 ## Solve script
 

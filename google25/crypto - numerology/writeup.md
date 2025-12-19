@@ -18,7 +18,6 @@ This basically means only four words `0, 4, 8, 12` actually mix. Everything else
 
 That means a big chunk of the keystream is trivial. Bytes 4–15 are straight from doubling key words, so they’re predictable. Only the first four bytes (word 0) really involve the counter.
 
----
 
 ## Known plaintext attack
 

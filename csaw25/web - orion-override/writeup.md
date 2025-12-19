@@ -1,6 +1,6 @@
 ## CSAW 2025 Quals – web/orion override
 
-published: 2025-09-13
+*published: 2025-09-13*
 
 This weekend, I played CSAW 2025 Quals with [Psi Beta Rho at UCLA](https://pbr.acmcyber.com/) (we qualified yay). I solved a web challenge called orion-override.
 
