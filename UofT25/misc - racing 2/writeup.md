@@ -135,7 +135,7 @@ My strategy was to overwrite `/etc/passwd`, the file that stores system user acc
 
 
 
-## flag
+## Flag
 
 ```bash
 cat /flag.txt

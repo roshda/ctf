@@ -80,7 +80,7 @@ If not, we kill the second connection and try again.
 This process is repeated for each of the 64 rounds. In each one, we chain the successful survival message (which contains the page number) and send it back to the main connection to keep moving forward.
 
 
-## solve.py
+## Solve script
 
 ```python
 import hashlib
@@ -185,7 +185,7 @@ for epoch in range(64):
 print(conn.recvall().decode())
 ```
 
-## flag
+## Flag
 ```
 dice{lu5tr0us_j3wel_tr1nk3t}
 ```

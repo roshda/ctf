@@ -1,10 +1,10 @@
-# Squ1rrel CTF 2025 – crypto/Secure Vigenere
+# Squ1rrel CTF 2025 – crypto/secure vigenere
 
 *Published: 2025-04-09*
 
 This weekend, I played Vanderbilt University's Squ1rrel CTF with Psi Beta Rho.
 
-This writeup will walk through my process of solving the cryptography challenge "Secure Vigenère."
+This writeup will walk through my process of solving the simple cryptography challenge "Secure Vigenère."
 
 On connection, the server gives you a Vigenère-encrypted flag using a random key composed of letters from `"squirrelctf"`:
 
@@ -22,7 +22,7 @@ Since the encryption is just a Caesar shift per character, that means each posit
 This means that by collecting multiple ciphertexts, we can intersect the possible plaintexts per position using sets. 
 
 
-## solve script 
+## Solve script 
 
 ```python
 from pwn import *

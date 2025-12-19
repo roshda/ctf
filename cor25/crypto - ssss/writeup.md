@@ -34,7 +34,7 @@ S = Σ w\_j \* y\_j
 
 ---
 
-## solve script
+## Solve script
 
 ```python
 from pwn import *

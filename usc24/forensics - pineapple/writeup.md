@@ -1,4 +1,4 @@
-# USC CTF 2024 - forensics/Pineapple
+# USC CTF 2024 - forensics/pineapple
 *published: 2024-11-30*
 
 This is my writeup for the "Pineapple" (forensics - network analysis) challenge at USC CTF 2024. I played the CTF this weekend with Psi Beta Rho at UCLA. 

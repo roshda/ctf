@@ -1,8 +1,8 @@
-# UniVsThreats CTF 2025 - crypto/Quantum Detanglement
+# UniVsThreats CTF 2025 - crypto/quantum-detanglement
 
 *published: 2025-05-06*
 
-This weekend, I briefly solved a couple cryptography challenges at UniVsThreats CTF 2025, organized by the West University of Timișoara in Romania, with cyberplanet. 
+This weekend, I briefly solved a couple cryptography challenges at UniVsThreats CTF 2025, organized by the West University of Timișoara in Romania, with the cyberplanet CTF team. 
 I wanted to go through my solution for this "Quantum Detanglement" challenge involving linear algebra. 
 
 ## Description
@@ -25,7 +25,7 @@ Matrix([[0], [-sqrt(2)/2], [sqrt(2)/2], [0]])
 ```
 
 
-A review of basic quantum concepts:
+I learned a basic overview of basic quantum concepts:
 
 * Qubits can exist in superpositions like α|0⟩+β|1⟩.
 * Entanglement links two qubits into states like |Φ⁺⟩=(|00⟩+|11⟩)/√2, so that measuring one influences the other.
@@ -57,7 +57,7 @@ strategy:
 3. connect repeatedly to extract label sequences and decode every transition.
 4. get enough bits until the ASCII flag pattern appears
 
-## solve.py
+## Solve script
 
 ```
 from pwn import remote
@@ -175,7 +175,7 @@ if __name__ == '__main__':
 ```
 
 
-## flag
+## Flag
 
 ```
 UVT{M4st3r_0f_m4trix_mu1tip1ic4ti0n}

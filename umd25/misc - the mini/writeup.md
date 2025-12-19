@@ -1,4 +1,4 @@
-# UMDCTF 2025 - misc/the-mini
+# UMDCTF 2025 - misc/the mini
 
 *Published: 2025-05-06*
 
@@ -134,7 +134,7 @@ def cksum_region(data_bytes):
 Now to get the key, let's write a loop that will use this to try every key from 0000 to 9999, unscramble the grid, strip black squares and re-encode to bytes, cmpute the checksum and compare. 
 
 ```python
-target_cksum = scrambled_cksum  # 0x6A7F from earlier
+target_cksum = scrambled_cksum # 0x6A7F from earlier
 
 for key in range(10000):
     plain = unscramble(enc_grid, width, height, key)
@@ -166,7 +166,7 @@ T M Y T I
 M E . . .
 ```
 
-## flag
+## Flag
 
 ```
 UMDCTF{CANYOUBEATMYTIME}

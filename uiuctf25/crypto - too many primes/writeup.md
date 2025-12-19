@@ -73,9 +73,7 @@ pt = pow(ct, d, N)
 print(long_to_bytes(pt).decode())
 ```
 
----
-
-### flag
+### Flag
 
 ```
 uiuctf{D0nt_U5e_Cons3cUt1vE_PriMeS}
