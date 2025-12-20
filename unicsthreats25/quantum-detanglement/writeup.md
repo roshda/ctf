@@ -1,4 +1,4 @@
-# UniVsThreats CTF 2025 - crypto/quantum-detanglement
+# UniVsThreats CTF 2025 - crypto/quantum detanglement
 
 *published: 2025-05-06*
 
